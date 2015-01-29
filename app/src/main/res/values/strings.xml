@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APKExport</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_Name">Apkexport</string>
+    <string name="strShareThisApp">Share this App</string>
+    <string name="strStartApp">Start App</string>
+    <string name="strAboutusApp">About us</string>
+    <string name="appDetails">Application Detail</string>
+    <string name="appNameTitle">Application name</string>
+    <string name="appPNameTitle">Package name</string>
+    <string name="appVersionTitle">Version</string>
+    <string name="Md_Number">+91 8141834322</string>
+    <string name="contact_us_email">Contact us</string>
+    <string name="footer">© 2014 Multidots Solutions Pvt Ltd.</string>
+    <string name="multidots">www.multidots.com</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-2297447248800559/3090300428</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2297447248800559/4455103626</string>
+
+</resources>

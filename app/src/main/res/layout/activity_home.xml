@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    >
+
+    <View
+        android:id="@+id/centerview"
+        android:layout_width="1dp"
+        android:layout_centerInParent="true"
+        android:layout_height="1dp" />
+
+
+    <LinearLayout
+        android:id="@+id/llShareApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_one"
+        android:layout_above="@+id/centerview"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvShareApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strShareThisApp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/font_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llStartApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/bg_two"
+        android:layout_below="@+id/centerview"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvStartApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strStartApp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/font_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llAboutusApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/bg_three"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvAboutusApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAboutusApp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/font_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/llAd"
+        layout="@layout/mergelayout" />
+
+</RelativeLayout>

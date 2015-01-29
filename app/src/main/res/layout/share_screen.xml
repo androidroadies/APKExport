@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:id="@+id/llAppdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/llContainerAppData2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/ivImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_share_one" />
+
+            <TextView
+                android:id="@+id/appDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/appDetails"
+                android:textColor="@color/bg_one"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llContainerAppData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/app_nameTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/appNameTitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_two"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/app_nameData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="No Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_three"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llContainerAppData1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/app_pNameTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/appPNameTitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_two"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/app_pNameData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="No Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_three"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llContainerAppData3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/appVersionTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/appVersionTitle"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_two"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/appVersionData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="No Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/bg_three"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llContainerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llAppdata"
+        android:layout_above="@+id/llAd"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:id="@+id/llShareAppH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_one"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvShareAppH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/font_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llBackUpAppH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/bg_two"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvStartAppH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Backup"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/font_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llUnistallAppH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/bg_three"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvAboutusAppH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unistall"
+                android:fontFamily="sans-serif"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/font_color"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/llContainerShare" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="15dp" -->
+        <!-- android:background="@color/bg_one" -->
+        <!-- android:orientation="horizontal" -->
+        <!-- android:weightSum="4" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:contentDescription="@string/app_name" -->
+        <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/tvShare" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="5dp" -->
+        <!-- android:layout_weight="3" -->
+        <!-- android:padding="6dp" -->
+        <!-- android:text="Share " -->
+        <!-- android:textAppearance="?android:attr/textAppearanceMedium" -->
+        <!-- android:textColor="@color/font_color" -->
+        <!-- android:textSize="20sp" /> -->
+        <!-- </LinearLayout> -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/llContainerBackUp" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_below="@+id/llContainerShare" -->
+        <!-- android:layout_marginTop="15dp" -->
+        <!-- android:background="@color/bg_two" -->
+        <!-- android:orientation="horizontal" -->
+        <!-- android:weightSum="4" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:contentDescription="@string/app_name" -->
+        <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/tvBackup" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="5dp" -->
+        <!-- android:layout_weight="3" -->
+        <!-- android:padding="6dp" -->
+        <!-- android:text="BackUp" -->
+        <!-- android:textAppearance="?android:attr/textAppearanceMedium" -->
+        <!-- android:textColor="@color/font_color" -->
+        <!-- android:textSize="20sp" /> -->
+        <!-- </LinearLayout> -->
+
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/llContainerUninstall" -->
+        <!-- android:layout_width="match_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_below="@+id/llContainerBackUp" -->
+        <!-- android:layout_marginTop="15dp" -->
+        <!-- android:background="@color/bg_three" -->
+        <!-- android:orientation="horizontal" -->
+        <!-- android:weightSum="4" > -->
+
+
+        <!-- <ImageView -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1" -->
+        <!-- android:contentDescription="@string/app_name" -->
+        <!-- android:src="@drawable/ic_launcher" /> -->
+
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/tvUninstall" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_marginTop="5dp" -->
+        <!-- android:layout_weight="3" -->
+        <!-- android:padding="6dp" -->
+        <!-- android:text="Uninstall" -->
+        <!-- android:textAppearance="?android:attr/textAppearanceMedium" -->
+        <!-- android:textColor="@color/font_color" -->
+        <!-- android:textSize="20sp" /> -->
+        <!-- </LinearLayout> -->
+    </LinearLayout>
+
+    <include
+        android:id="@+id/llAd"
+        layout="@layout/mergelayout" />
+</RelativeLayout>

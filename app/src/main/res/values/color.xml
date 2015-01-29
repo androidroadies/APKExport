@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_one">#5fb3f9</color>
+    <color name="bg_two">#fda65f</color>
+    <color name="bg_three">#fd7b87</color>
+    <color name="bg_color">#313246</color>
+    <color name="bg_color_one">#4a6cb3</color>
+    <color name="bg_color_two">#96bad1</color>
+    <color name="bg_color_three">#de9a9d</color>
+    <color name="color_lv_bg1">#bce4a5</color>
+    <color name="color_lv_bg2">#88d1fc</color>
+    <color name="font_color">#FFFFFF</color>
+
+</resources>
